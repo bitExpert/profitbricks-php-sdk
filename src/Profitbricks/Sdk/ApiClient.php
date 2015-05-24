@@ -10,10 +10,7 @@
  */
 namespace Profitbricks\Sdk;
 
-use Profitbricks\Api\Domain\Datacenter;
-use Profitbricks\Api\Domain\Snapshot;
-
-class Client
+class ApiClient implements Client
 {
   /**
    * @var string
