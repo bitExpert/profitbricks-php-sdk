@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Profitbricks\\Sdk": [
+      "Profitbricks\\Sdk\\": [
         "src/Profitbricks/Sdk",
         "tests/Profitbricks/Sdk"
       ]
