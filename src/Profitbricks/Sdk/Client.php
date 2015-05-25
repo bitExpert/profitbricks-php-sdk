@@ -15,17 +15,17 @@ namespace Profitbricks\Sdk;
  */
 interface Client
 {
-  /**
-   * Returns all datacenters.
-   *
-   * @return \Profitbricks\Sdk\Datacenter[]
-   */
-  public function getAllDataCenters();
+    /**
+     * Returns all datacenters.
+     *
+     * @return \Profitbricks\Sdk\Datacenter[]
+     */
+    public function getAllDataCenters();
 
-  /**
-   * Returns all snapshots.
-   *
-   * @return \Profitbricks\Sdk\Snapshot[]
-   */
-  public function getAllSnapshots();
+    /**
+     * Returns all snapshots.
+     *
+     * @return \Profitbricks\Sdk\Snapshot[]
+     */
+    public function getAllSnapshots();
 }
